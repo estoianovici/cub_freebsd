@@ -712,7 +712,7 @@ Index: src/base/porting.h
  extern int drand48_r (struct drand48_data *buffer, double *result);
 +#endif
  
-+#if defined(WINDWOS)
++#if defined(WINDOWS)
  extern double round (double d);
  
  typedef struct
